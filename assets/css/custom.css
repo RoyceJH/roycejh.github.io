@@ -26,3 +26,11 @@
   line-height: 120%;
   margin-bottom: 10px;
 }
+
+#four ul.labeled-icons li a {
+  color: #0e9d4b;
+}
+
+#two > div > article:nth-child(1) > h3 > a {
+  color: #0e9d4b;
+}

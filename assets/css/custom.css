@@ -1,0 +1,28 @@
+.row-skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-container-1, .skills-container-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-container-1 svg, .skills-container-2 svg {
+  height: 100px;
+  width: 100px;
+}
+
+.row-skills h4 {
+  text-align: center;
+}
+
+.description-list {
+  margin-top: 15px;
+}
+
+.description-list li {
+  font-size: 18px;
+  line-height: 120%;
+  margin-bottom: 10px;
+}

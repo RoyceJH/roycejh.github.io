@@ -31,6 +31,15 @@
   color: #0e9d4b;
 }
 
-#two > div > article:nth-child(1) > h3 > a {
+.work-item p {
+  font-size: 1em;
+}
+
+.work-item h3 {
+  font-size: 2em;
+}
+
+.work-item h3 a {
+  font-size: 0.6em;
   color: #0e9d4b;
 }

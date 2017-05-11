@@ -38,7 +38,7 @@
   margin-right: 50px;
 }
 
-.wrapper.alt.style2 .spot-header:after {
+.spot-header:after {
   content: '';
   display: block;
   height: 1px;

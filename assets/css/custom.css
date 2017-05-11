@@ -104,6 +104,10 @@ li h4 {
   font-size: 25px;
 }
 
+.redirect-icons a:hover {
+  opacity: 0.5;
+}
+
 #nav {
   display: flex;
 }

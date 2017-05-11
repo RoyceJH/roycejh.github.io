@@ -38,11 +38,15 @@
   margin-right: 50px;
 }
 
+header.major h2 {
+  border-bottom: solid 2px #465767;
+}
+
 .spot-header:after {
   content: '';
   display: block;
-  height: 1px;
-  background-color: white;
+  height: 2px;
+  background-color: #465767;
 }
 
 .wrapper.alt.style2 h3 {
@@ -52,13 +56,22 @@
 
 .wrapper.style3.special li {
   width: 20%;
-  padding: 50px;
+  padding: 0;
   display: flex;
   flex-direction: column;
+  align-content: center;
+  text-align: center;
+}
+
+.wrapper.style3.special li div {
+  width: 150px;
+  margin: 0 auto;
 }
 
 li h4 {
+  display: block;
   text-align: center;
+  width: 100%;
 }
 
 .spotlight img:hover {

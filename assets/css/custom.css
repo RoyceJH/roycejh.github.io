@@ -1,45 +1,115 @@
-.row-skills {
+#one .inner {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper.style1 {
+  background-color: #0b4b5c;
+
+}
+
+#one .inner .major {
+  padding-right: 40px;
+}
+
+#one .inner img {
+  width: 250px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+}
+
+.spot-header h3 {
+  margin-bottom: 0;
+  margin-right: 20px;
+}
+
+.wrapper.alt.style2 h2 {
+  margin-bottom: 5px;
+  margin-right: 50px;
+}
+
+.wrapper.alt.style2 .spot-header:after {
+  content: '';
+  display: block;
+  height: 1px;
+  background-color: white;
+}
+
+.wrapper.alt.style2 h3 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.wrapper.style3.special li {
+  width: 20%;
+  padding: 50px;
   display: flex;
   flex-direction: column;
 }
 
-.skills-container-1, .skills-container-2 {
-  display: flex;
-  justify-content: space-between;
-}
-
-.skills-container-1 svg, .skills-container-2 svg {
-  height: 100px;
-  width: 100px;
-}
-
-.row-skills h4 {
+li h4 {
   text-align: center;
 }
 
-.description-list {
-  margin-top: 15px;
+.spotlight img:hover {
+  opacity: .5;
 }
 
-.description-list li {
-  font-size: 18px;
-  line-height: 120%;
-  margin-bottom: 10px;
+.wrapper.style3.special li {
+  background-color: inherit;
 }
 
-#four ul.labeled-icons li a {
-  color: #0e9d4b;
+.wrapper.alt.style2 .major {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  background-color: #273038;
+  margin-bottom: 0;
+  padding-bottom: 60px;
 }
 
-.work-item p {
-  font-size: 1em;
+.wrapper.style3 {
+  background-color: #817161;
 }
 
-.work-item h3 {
-  font-size: 2em;
+.header .icons {
+  width: 30%;
+  padding-right: 100px;
 }
 
-.work-item h3 a {
-  font-size: 0.6em;
-  color: #0e9d4b;
+.redirect-icons {
+  font-size: 25px;
+}
+
+#nav {
+  display: flex;
+}
+
+.actions.vertical.touch li {
+  display: flex;
+  align-items: center;
+}
+
+.actions.vertical.touch li h3 {
+  padding-right: 15px;
+  font-size: 20px;
+}
+
+.actions.vertical.touch li:last-child h3 {
+  font-size: 25px;
+  padding-left: 5px;
+}
+
+#banner {
+  background-image: url('http://wallpapercave.com/wp/Y4EJI08.jpg');
 }

@@ -64,7 +64,7 @@ header.major h2 {
 }
 
 .wrapper.style3.special li div {
-  width: 150px;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -72,6 +72,16 @@ li h4 {
   display: block;
   text-align: center;
   width: 100%;
+}
+
+@media screen and (max-width: 736px) {
+  .wrapper.style3.special li h4 {
+    font-size: 5px;
+  }
+
+  .wrapper.style1.special .inner {
+    display: block;
+  }
 }
 
 .spotlight img:hover {
